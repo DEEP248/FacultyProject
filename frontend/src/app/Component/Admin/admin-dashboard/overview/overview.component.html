@@ -1,0 +1,337 @@
+<div class="container-fluid m-0 p-0" style="min-height: 100vh">
+  <!-- heading -->
+  <div class="mt-3 mb-3">
+    <h4 class="text-muted text-warning">Overview</h4>
+    <hr />
+  </div>
+
+  <!-- first row -->
+  <div class="row pe-2 mt-3">
+    <div class="col-sm-4 text-center">
+      <div>
+        <div class="card shadow">
+          <div class="card-body">
+            <h6 class="text-success">Total Students</h6>
+            <h5>{{studentArr.length}}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 text-center">
+      <div>
+        <div class="card shadow">
+          <div class="card-body">
+            <h6 class="text-danger">Total Faculty</h6>
+            <h5>{{facultyArr.length}}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 text-center">
+      <div>
+        <div class="card shadow">
+          <div class="card-body">
+            <h6 class="text-primary">Total Trainings</h6>
+            <h5>{{trainingArr.length}}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- second row -->
+  <div class="row pe-2 mt-3">
+    <div class="col-sm-6 text-center">
+      <div>
+        <div class="card shadow">
+          <div class="card-body">
+            <h6 class="text-danger">Departments</h6>
+            <table class="table table-hover border mt-3">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">Department Name</th>
+                  <th scope="col">HOD</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Information Technology</td>
+                  <td>Mr Vipul Dabhi</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Computer Science</td>
+                  <td>Mr ABC</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Civil Engineering</td>
+                  <td>Mr XYZ</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Mechanical Engineering</td>
+                  <td>Mr PQR</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Electrical Engineering</td>
+                  <td>Mr WWW</td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>Electronics Engineering</td>
+                  <td>Mrs patel</td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 text-center">
+      <div>
+        <div class="card shadow">
+          <div class="card-body">
+            <h6 class="text-danger">Students</h6>
+            <table class="table table-hover border mt-3">
+              <thead>
+                <tr >
+                  <th scope="col"></th>
+                  <th scope="col">Department Name</th>
+                  <th scope="col">Capacity</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Information Technology</td>
+                  <td>120</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Computer Science</td>
+                  <td>120</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Civil Engineering</td>
+                  <td>60</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Mechanical Engineering</td>
+                  <td>60</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Electrical Engineering</td>
+                  <td>60</td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>Electronics Engineering</td>
+                  <td>60</td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <div class="card-body">
+    <h2 class="text-success">Time Table Of H Division</h2>
+    
+  </div>
+  <div class="container">
+    <div class="timetable-img text-center">
+        <img src="img/content/timetable.png" alt="">
+    </div>
+    <div class="table-responsive">
+        <table class="table table-bordered text-center">
+            <thead>
+                <tr class="bg-light-gray">
+                    <th class="text-uppercase">Time
+                    </th>
+                    <th class="text-uppercase">Monday</th>
+                    <th class="text-uppercase">Tuesday</th>
+                    <th class="text-uppercase">Wednesday</th>
+                    <th class="text-uppercase">Thursday</th>
+                    <th class="text-uppercase">Friday</th>
+                    <th class="text-uppercase">Saturday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="align-middle">10:45</td>
+                    <td>
+                        <span class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">DPAF</span>
+                        <div class="margin-10px-top font-size14">10:45-11:45</div>
+                        <div class="font-size13 text-light-gray">HBP</div>
+                    </td>
+                    <td>
+                        <span class="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">AOS</span>
+                        <div class="margin-10px-top font-size14">10:45-11:45</div>
+                        <div class="font-size13 text-light-gray">HBP</div>
+                    </td>
+
+                    <td>
+                        <span class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">AOS</span>
+                        <div class="margin-10px-top font-size14">10:45-11:45</div>
+                        <div class="font-size13 text-light-gray">ANV</div>
+                    </td>
+                    <td>
+                        <span class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">SE</span>
+                        <div class="margin-10px-top font-size14">10:45-11:45</div>
+                        <div class="font-size13 text-light-gray">VHS</div>
+                    </td>
+                    <td>
+                        <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">LT</span>
+                        <div class="margin-10px-top font-size14">10:45-11:45</div>
+                        <div class="font-size13 text-light-gray">NPD</div>
+                    </td>
+                    <td>
+                        <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">SDP LAB</span>
+                        <div class="margin-10px-top font-size14">8:30-9:30</div>
+                        <div class="font-size13 text-light-gray">RAV</div>
+                    </td>
+                </tr>
+
+                <tr>
+                  <td class="align-middle">11:45</td>
+                  <td>
+                      <span class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">SE</span>
+                      <div class="margin-10px-top font-size14">11:45-12:45</div>
+                      <div class="font-size13 text-light-gray">BDD</div>
+                  </td>
+                  <td>
+                      <span class="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">DPAF</span>
+                      <div class="margin-10px-top font-size14">11:45-12:45</div>
+                      <div class="font-size13 text-light-gray">ADD</div>
+                  </td>
+
+                  <td>
+                      <span class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">SE</span>
+                      <div class="margin-10px-top font-size14">11:45-12:45</div>
+                      <div class="font-size13 text-light-gray">VHS</div>
+                  </td>
+                  <td>
+                      <span class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">LT</span>
+                      <div class="margin-10px-top font-size14">11:45-12:45</div>
+                      <div class="font-size13 text-light-gray">NPD</div>
+                  </td>
+                  <td>
+                      <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">AJT</span>
+                      <div class="margin-10px-top font-size14">11:45-12:45</div>
+                      <div class="font-size13 text-light-gray">VD</div>
+                  </td>
+
+              </tr>
+
+              <tr>
+                <td class="align-middle">1:30</td>
+                <td>
+                    <span class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">AOS</span>
+                    <div class="margin-10px-top font-size14">1:30-2:30</div>
+                    <div class="font-size13 text-light-gray">ANV</div>
+                </td>
+                <td>
+                    <span class="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">LT</span>
+                    <div class="margin-10px-top font-size14">1:30-2:30</div>
+                    <div class="font-size13 text-light-gray">NPD</div>
+                </td>
+
+                <td>
+                    <span class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">DPAF</span>
+                    <div class="margin-10px-top font-size14">1:30-2:30</div>
+                    <div class="font-size13 text-light-gray">ADD</div>
+                </td>
+                <td>
+                    <span class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">AJT</span>
+                    <div class="margin-10px-top font-size14">1:30-2:30</div>
+                    <div class="font-size13 text-light-gray">SRS</div>
+                </td>
+                <td>
+                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">SE</span>
+                    <div class="margin-10px-top font-size14">1:30-2:30</div>
+                    <div class="font-size13 text-light-gray">BDD</div>
+                </td>
+
+            </tr>
+
+            <tr>
+              <td class="align-middle">2:30</td>
+              <td>
+                  <span class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">LT</span>
+                  <div class="margin-10px-top font-size14">2:30-3:30</div>
+                  <div class="font-size13 text-light-gray">NPD</div>
+              </td>
+              <td>
+                  <span class="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">AJT</span>
+                  <div class="margin-10px-top font-size14">2:30-3:30</div>
+                  <div class="font-size13 text-light-gray">SRS</div>
+              </td>
+
+              <td>
+                  <span class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">AJT</span>
+                  <div class="margin-10px-top font-size14">2:30-3:30</div>
+                  <div class="font-size13 text-light-gray">VD</div>
+              </td>
+              <td>
+                  <span class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">DPAF</span>
+                  <div class="margin-10px-top font-size14">2:30-3:30</div>
+                  <div class="font-size13 text-light-gray">HBP</div>
+              </td>
+              <td>
+                  <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">AOS</span>
+                  <div class="margin-10px-top font-size14">2:30-3:30</div>
+                  <div class="font-size13 text-light-gray">HBP</div>
+              </td>
+
+          </tr>
+          
+          <tr>
+            <td class="align-middle">3:30 LAB</td>
+            <td>
+                <span class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">DPAF LAB</span>
+                <div class="margin-10px-top font-size14">3:30-5:30</div>
+                <div class="font-size13 text-light-gray">SRS</div>
+            </td>
+            <td>
+              <span class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">NO LAB!</span>
+              <div class="margin-10px-top font-size14">3:30-5:30</div>
+              <div class="font-size13 text-light-gray">NO LAB!</div>
+          </td>
+
+            <td>
+                <span class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">SE LAB</span>
+                <div class="margin-10px-top font-size14">3:30-5:30</div>
+                <div class="font-size13 text-light-gray">KJS</div>
+            </td>
+            <td>
+                <span class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">LT LAB</span>
+                <div class="margin-10px-top font-size14">3:30-5:30</div>
+                <div class="font-size13 text-light-gray">YLP</div>
+            </td>
+            <td>
+                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">AJT LAB</span>
+                <div class="margin-10px-top font-size14">3:30-5:30</div>
+                <div class="font-size13 text-light-gray">VD</div>
+            </td>
+
+        </tr>
+
+               
+              
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</div>
